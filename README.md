@@ -1,6 +1,6 @@
 # Gauges
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
+The goal is to create a few guages that fit within grid dashboards. The gauges will offer a few styles and capable of being configured to different colors, and controlled with css styles. 
 
 ## Development server
 
