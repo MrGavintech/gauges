@@ -8,13 +8,13 @@ import {Component} from '@angular/core';
 export class AppComponent {
   title = 'gauges';
 
-  public canvasWidth = 300;
-  public needleValue = 20;
-  public centralLabel = '';
+  public canvasWidth = 200;
+  public needleValue = 44;
+  public centralLabel = 'test';
   public name = 'Gauge chart';
   public bottomLabel = '65';
   public options = {
-    hasNeedle: true,
+    hasNeedle: false,
     needleColor: 'gray',
     needleUpdateSpeed: 1000,
     arcColors: ['rgb(44, 151, 222)', 'lightgray'],

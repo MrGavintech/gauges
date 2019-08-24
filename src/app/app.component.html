@@ -1,13 +1,16 @@
 <mat-grid-list gutterSize="16" cols="2" rowHeight="2:1">
-  <mat-grid-tile class="mat-card"></mat-grid-tile>
+  <mat-grid-tile class="mat-card">
+    <div class="gauge-container">
+      <div class="gauge-background">
+        <div class="gauge-percent"></div>
+        <div class="gauge-mask"></div>
+        <span class="gauge-value">88</span>
+      </div>
+      <span class="gauge-min">0</span>
+      <span class="gauge-max">100</span>
+    </div>
+  </mat-grid-tile>
   <mat-grid-tile class="mat-card"></mat-grid-tile>
   <mat-grid-tile class="mat-card"></mat-grid-tile>
   <mat-grid-tile class="mat-card"></mat-grid-tile>
 </mat-grid-list>
-
-<rg-gauge-chart
-  [canvasWidth]="canvasWidth"
-  [needleValue]="needleValue"
-  [centralLabel]="centralLabel"
-  [options]="options">
-</rg-gauge-chart>

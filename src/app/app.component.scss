@@ -1,3 +1,59 @@
 mat-grid-tile {
   background: white;
 }
+
+.gauge-container {
+  width: 200px;
+}
+
+.gauge-background {
+  position: relative;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 150px 150px 0 0;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.gauge-mask {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  left: 20px;
+  height: 80px;
+  background-color: white;
+  border-radius: 150px 150px 0 0
+}
+
+.gauge-percent {
+  position: absolute;
+  top: 100px;
+  left: -200%;
+  width: 400%;
+  height: 400%;
+  margin-left: 100px;
+  background-color: #00aeef;
+}
+
+.gauge-percent {
+  transform: rotate(125deg);
+  transform-origin: top center;
+}
+
+.gauge-min {
+  float: left;
+}
+
+.gauge-max {
+  float: right;
+}
+
+.gauge-value {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  font-size: 48px;
+  font-weight: 700
+}
