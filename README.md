@@ -1,6 +1,6 @@
 # Gauges
 
-The goal is to create a few guages that fit within grid dashboards. The gauges will offer a few styles and capable of being configured to different colors, and controlled with css styles. 
+The goal is to create a few guages that fit within grid dashboards. The gauges will offer a few styles and be capable of configurations with different colors, and controlled with css styles. 
 
 ## Development server
 
